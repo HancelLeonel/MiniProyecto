@@ -68,12 +68,12 @@ function agregarProducto() {
 
     let codigo = document.getElementById('codigo').value;
     let nombre = document.getElementById('nombre').value;
-    let precio = document.getElementById('precio').value;
+    let precio = document.getElementById('precio').value;4211
 
     validarDatos(codigo, nombre, precio);
 
     guardarDatos(codigo, nombre, precio);
 
     mostrarDatos();
-    limpiar();
+    limpiar();42
 }
